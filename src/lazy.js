@@ -342,6 +342,7 @@ export default function (Vue) {
         }
         const catIn = listener.checkInView()
         if (!catIn) return
+		this.options.adapter['beforeLoad'] && this.options.adapter['beforeLoad'](listener, this.options)
         listener.load()
       })
       freeList.forEach(vm => remove(this.ListenerQueue, vm))
