@@ -14,7 +14,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/hilongjw/vue-lazyload.git"
+    "url": "https://github.com/lastonoga/vue-lazyload.git"
   },
   "typings": "types/index.d.ts",
   "keywords": [
@@ -23,9 +23,9 @@
     "lazyload",
     "vue-directive"
   ],
-  "author": "Awe <hilongjw@gmail.com>",
+  "author": "Awe <lastonoga@gmail.com>",
   "bugs": {
-    "url": "https://github.com/hilongjw/vue-lazyload/issues"
+    "url": "https://github.com/lastonoga/vue-lazyload/issues"
   },
   "browserslist": [
     "> 1%",
