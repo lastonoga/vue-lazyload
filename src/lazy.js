@@ -371,6 +371,7 @@ export default function (Vue) {
           this.ListenerQueue.forEach(listener => {
             if (listener.el === entry.target) {
               if (listener.state.loaded) return this._observer.unobserve(listener.el)
+              this.options.adapter['beforeLoad'] && this.options.adapter['beforeLoad'](listener, this.options)
               listener.load()
             }
           })
